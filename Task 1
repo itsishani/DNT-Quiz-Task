@@ -1,0 +1,9 @@
+#creating a hexagon using python turtle
+
+import turtle
+screen=turtle.Screen()
+TurtleIns=turtle.Turtle()
+#iterate loop 6 times for 6 sides
+for i in range(6):
+  TurtleIns.forward(90)
+  TurtleIns.left(300)
